@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forma</title>
+	<style>
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: url(pariiisssssssssssssssssssssss.avif) no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	width:100%;
+	padding:0 20px;  
+}
+
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background-image: url(gani-geci-vrasje.jpg);
+	padding: 30px;
+	border-radius: 5px;
+	display:flex;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields{      
+	display: flex;
+	flex-direction: column;
+	margin-right: 10%;
+
+}
+
+.input-fields,
+.msg{
+	width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+	margin: 10px 0;
+	background: transparent;
+	border:0 ;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color: #c5ecfd;
+	width: 100%;
+}
+.btn{
+	background: #39b7dd;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+
+}
+</style>
+</head>
+<body>
+	 <div class="wrapper">
+		<div class="contact-form">
+			<div class="input-fields">
+				<input type="text " class="input " placeholder="emri">
+				<input type="text " class="input " placeholder="email">
+				<input type="text " class="input " placeholder="adresa">
+			</div>
+			<div class="msg">
+				<textarea placeholder="Message"></textarea>
+				<div class="btn">Send</div>
+			</div>
+		</div>
+	 </div>
+</body>
+</html>
